@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #333333;
+}
+
+.section-title__text {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.section-title__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 36px;
+}
+
+.section-title__line {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: auto;
+}
+
+.team__section-text {
+    color: #B6B6B6;
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 27px;
+}
+
+.team__gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__gallery-photo {
+    width: 100%;
+    max-width: 380px;
+}
+
+.team__gallery-title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.team__gallery-subtitle {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #B6B6B6;
+}
